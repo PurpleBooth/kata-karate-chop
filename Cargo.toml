@@ -1,16 +1,9 @@
 [package]
-name = "kata-count-number-of-the"
+name = "kata-karate-chop"
 version = "0.1.0"
 authors = ["Billie Thompson <billie@billiecodes.com>"]
 
 
 [lib]
-name = "countthe"
+name = "katakaratechop"
 path = "src/lib.rs"
-
-[[bin]]
-name = "countthe"
-path = "src/bin.rs"
-
-[dependencies]
-regex = "0.2.6"
